@@ -1,7 +1,7 @@
 
 # 4 é o número
 
-Exercicios da atividade '4 é o Número'.
+Este repositório contém exercícios da atividade '4 é o Número'. O objetivo desta atividade é replicar as páginas exatamente como o modelo fornecido, que pode ser encontrado na pasta 'exemplos'. ^-^
 
 #
->Apenas o arquivo ExercicioNoticias.html foi construído, os outros ainda serão desenvolvidos.
+>Todas as páginas já foram devidamente resolvidas! 
