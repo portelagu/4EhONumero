@@ -7,11 +7,41 @@
     <title>Tabelas & CSS</title>
 
     <style>
+        table {
+            width: 100%;
+            border: 1px solid #000;
+            border-collapse: collapse;
+            text-align: center;
+            background-color: #f2f2f2;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        table thead {
+            background-color: #000;
+            color: #FFF;
+        }
+
+        table th {
+            padding: 2vh;
+            border: 1px solid #000;
+            border-collapse: collapse;
+        }
+
+        table td {
+            padding: 2vh;
+            border: 1px solid #000;
+            border-collapse: collapse;
+        }
+
+        tr:nth-child(even) {
+            background: #FFF;
+        }
+
         /*
 
         1. Faça com que a tabela ocupe 100% da largura da tela.
         2. Aplique a propriedade border-collapse com o valor collapse para que as bordas das células da tabela sejam unidas.
-
         3. Aplique a propriedade border com o valor 1px solid #000 para que as bordas das células da tabela sejam exibidas.
         4. Aplique a propriedade padding com o valor 2vh para que haja um espaçamento interno entre o conteúdo das células e as bordas das células.
         5. Aplique a propriedade text-align para que o texto das células seja centralizado.
@@ -19,7 +49,7 @@
         7. Aplique a propriedade background-color com o valor #f2f2f2 para que as linhas PARES da tabela tenham um fundo cinza.
         8. Aplique a propriedade font-size com o valor 20px para que o texto das células tenha um tamanho de 20 pixels.
         9. Aplique a propriedade font-family com o valor 'Arial', sans-serif para que o texto das células seja exibido em uma fonte Arial.
-        
+
         */
 
     </style>
